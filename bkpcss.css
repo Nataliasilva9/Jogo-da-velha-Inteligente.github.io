@@ -1,0 +1,112 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+button{
+    background-color: #0285F0;
+    border-radius: 10px;
+    border: 1px solid #2E5270;
+    color: #75F592;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#dvmenu {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: large;
+    color: #0285F0; /* Azul para o menu */
+}
+
+#dvQuemComeca{
+margin-bottom: 10px;
+
+}
+#dvjogo {
+    width: 156px;
+    height: 156px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+   
+    border: 2px solid #6E703E; /* Laranja claro para a borda do tabuleiro */
+     /* Cantos arredondados */
+}
+
+.posJogo {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    transition: background-color 0.3s; /* Transição suave para as cores */
+    background-color: #E7F00C; /* Amarelo claro para as células */
+    border: 1px solid transparent; /* Remover efeito de sombra */
+}
+
+.posJogo:hover {
+    background-color: #6E703E; /* Laranja ao passar o mouse */
+    color: white; /* Texto branco ao passar o mouse */
+}
+
+#p1 {
+    border-right: 1px solid #2E5270;
+    border-bottom: 1px solid #2E5270;
+    
+}
+
+#p2 {
+    border-left: 1px solid #2E5270;
+    border-right: 1px solid #2E5270;
+    border-bottom: 1px solid #2E5270;
+}
+
+#p3 {
+    border-left: 1px solid #2E5270;
+    border-bottom: 1px solid #2E5270;
+}
+
+#p4 {
+    border-right: 1px solid #2E5270;
+    border-top: 1px solid #2E5270;
+    border-bottom: 1px solid #2E5270;
+}
+
+#p5 {
+    border: 1px solid #2E5270;
+}
+
+#p6 {
+    border-left: 1px solid #2E5270;
+    border-top: 1px solid #2E5270;
+    border-bottom: 1px solid #2E5270;
+}
+
+#p7 {
+    border-right: 1px solid #2E5270;
+    border-top: 1px solid #2E5270;
+}
+
+#p8 {
+    border-left: 1px solid #2E5270;
+}
+
+#p9 {
+    border-left: 1px solid #2E5270;
+    border-top: 1px solid #2E5270;
+}
