@@ -23,16 +23,6 @@ function atualizaTabuleiro() {
         for (var c = 0; c < 3; c++) {
             tabuleiro[l][c].innerHTML = jogo[l][c];
             tabuleiro[l][c].style.cursor = jogo[l][c] === '' ? "pointer" : "default";
-                    // Define a cor azul para 'X' e vermelha para 'O'
-                    if (jogo[l][c] === 'X') {
-                        tabuleiro[l][c].style.color = "#0285F0";
-                    } else if (jogo[l][c] === 'O') {
-                        tabuleiro[l][c].style.color = "#F0140C";
-                    } else {
-                        tabuleiro[l][c].style.color = ""; // Reseta a cor quando está vazio
-                    }
-        
-        
         }
     }
 }
