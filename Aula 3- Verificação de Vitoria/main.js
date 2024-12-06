@@ -23,7 +23,7 @@ function atualizaTabuleiro() {
         for (var c = 0; c < 3; c++) {
             tabuleiro[l][c].innerHTML = jogo[l][c];
             tabuleiro[l][c].style.cursor = jogo[l][c] === '' ? "pointer" : "default";
-
+                                  // Gravar
                                 // Define a cor azul para 'X' e vermelha para 'O'
                                 if (jogo[l][c] === 'X') {
                                     tabuleiro[l][c].style.color = "blue";
@@ -37,7 +37,7 @@ function atualizaTabuleiro() {
         }
     }
 }
-
+// Gravar
 function verificaVitoria() {
     // Verifica linhas
     for (var l = 0; l < 3; l++) {

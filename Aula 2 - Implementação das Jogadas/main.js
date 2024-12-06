@@ -18,37 +18,42 @@ function inicializarJogo() {
     document.getElementById("dvQuemComeca").innerHTML = "Quem Começa: Jogador";
 }
 
-function atualizaTabuleiro() {
-    for (var l = 0; l < 3; l++) {
-        for (var c = 0; c < 3; c++) {
-            tabuleiro[l][c].innerHTML = jogo[l][c];
-            tabuleiro[l][c].style.cursor = jogo[l][c] === '' ? "pointer" : "default";
-
-                                // Define a cor azul para 'X' e vermelha para 'O'
-                                if (jogo[l][c] === 'X') {
-                                    tabuleiro[l][c].style.color = "blue";
-                                } else if (jogo[l][c] === 'O') {
-                                    tabuleiro[l][c].style.color = "red";
-                                } else {
-                                    tabuleiro[l][c].style.color = ""; // Reseta a cor quando está vazio
-                                }
-                    
-                    
-        }
+function atualizaTabuleiro(){
+   
+    for(var l = 0; l < 3; l++){
+        for(var c = 0; c < 3; c++){
+      tabuleiro[l][c].innerHTML = jogo[l][c];
+      tabuleiro[l][c].style.cursor = jogo[l][c] == '' ? "pointer" : "default";
+       if (jogo[l][c] === 'X' ) {
+         tabuleiro[l][c].style.color='blue';
+       }else if( jogo[l][c] === 'O'){
+         tabuleiro[l][c].style.color='red';
+       }else{
+        tabuleiro[l][c].style.color='';
+       }
+    
+       
+      }
     }
+
 }
+ function jogar(p) {
+     if (jogando == false) {
+        return;
+    }
+   
+    var linha = Math.floor((p - 1) / 3 );
+    var coluna = ( p - 1) % 3;
 
+    if (jogo[linha][coluna] !== '') {
+        return;
+    }
 
+  jogo[linha][coluna] = 'X';
 
+atualizaTabuleiro();
 
-
-
-function jogar(p) {
-    if (!jogando || jogo[Math.floor((p - 1) / 3)][(p - 1) % 3] !== '') return;
-
-    jogo[Math.floor((p - 1) / 3)][(p - 1) % 3] = 'X';
-    atualizaTabuleiro();
-}
+ }
 
 function iniciar() {
     inicializarJogo();
