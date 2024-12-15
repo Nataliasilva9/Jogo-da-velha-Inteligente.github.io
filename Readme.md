@@ -1,6 +1,22 @@
 # Documentação do Jogo da Velha (Tic-Tac-Toe)
 
-## Visão Geral
+<a href="https://makerjunior.github.io/Jogo-da-velha-Inteligente.github.io/" target="_blank">
+   <h2>🎮Jogar</h2>
+  </a>
+
+
+🚀 Não perca o Curso de JavaScript  👇
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=BdR_NEI2oTM&list=PLpo2vYALH9e58UzWhvozuMAaK7vVS4_lP&index=23" target="_blank">
+    <img src="https://img.youtube.com/vi/BdR_NEI2oTM/0.jpg" alt="Vídeo do YouTube" width="300" style="object-fit: cover; border-radius: 8px;" />
+  </a>
+</p>
+
+
+
+
+
+## 📌Visão Geral
 
 Este jogo é uma implementação simples do clássico "Jogo da Velha", onde dois jogadores se alternam para marcar suas jogadas em um tabuleiro 3x3. O jogador pode jogar como 'X' e a CPU joga como 'O'. O objetivo é alinhar três de suas marcas em linha, seja horizontalmente, verticalmente ou diagonalmente.
 
