@@ -1,17 +1,4 @@
 # Documentação do Jogo da Velha (Tic-Tac-Toe)
-<a href="https://makerjunior.github.io/Jogo-da-velha-Inteligente.github.io/" target="_blank" style="font-size: 24px; font-weight: bold;">
-  🎮 Jogar
-</a>
-
-<br>
-
-
-🚀 Não perca o Curso de JavaScript  👇
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=BdR_NEI2oTM&list=PLpo2vYALH9e58UzWhvozuMAaK7vVS4_lP&index=23" target="_blank">
-    <img src="https://img.youtube.com/vi/BdR_NEI2oTM/0.jpg" alt="Vídeo do YouTube" width="300" style="object-fit: cover; border-radius: 8px;" />
-  </a>
-</p>
 
 
 
